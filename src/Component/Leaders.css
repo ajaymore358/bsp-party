@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+ .image{
+    /* max-width: 250px; */
+    width: 380px;
+    height: 400px;
+    float: left;
+    top: 10px;
+    margin: 15px;
+    border: 3px solid white;
+ }
+ .body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-width: 100vh;
+     background: rgb(89, 89, 144);
+ }
+ .wrapper{
+    margin: 10px auto;
+    width: 80%;
+    height: 100vh;
+ }
+.text-box{
+    color: white;
+}
+.text-box h2{
+    font-size: 42px;
+}
+.text-box p{
+    font-size: 18px;
+}
+.wrapper h1{
+font-size: 42px;
+color: white;
+margin: 20px;
+}

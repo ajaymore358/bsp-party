@@ -1,0 +1,100 @@
+*{
+  
+}
+element.style {
+}
+.offcanvas-body {
+   
+color: white !important;
+}
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+style attribute {
+    visibility: visible;
+}
+.offcanvas.hiding, .offcanvas.show, .offcanvas.showing {
+    visibility: visible;
+}
+.offcanvas {
+    top: 100px !important;
+    width: 300px !important;
+    position: fixed;
+    bottom: 0;
+    z-index: var(--bs-offcanvas-zindex);
+    display: flex;
+    flex-direction: column;
+
+    max-width: 100%;
+    color: var(--bs-offcanvas-color);
+    visibility: hidden;
+    background-color:rgb(100, 100, 156)!important;
+    background-clip: padding-box;
+    outline: 0;
+    overflow: hidden;
+    transition: transform .3s ease-in-out;
+}
+button i{
+    
+    color: white;
+    top: 25px !important;
+}
+
+element.style {
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.btn {
+   
+    font-size: 22px;
+    border-width: 100%;
+    border-color: none;
+    color: black;
+    text-decoration: none;
+}
+.btn-primary {
+    background: none ;
+    padding: 0;
+    color: black;
+    top: 25px;
+    
+}
+.offcanvas-body ul li a{
+    display: block !important;
+    line-height: 50px !important;
+    color: white !important;
+    font-size: 20px !important;
+    text-decoration: none !important;
+    list-style: none !important;
+    box-sizing: border-box !important;
+    border-top: 1px solid black;
+    list-style: none;
+    background: rgb(100, 100, 156) !important;
+    overflow: none;
+    
+
+
+}
+.offcanvas-body ul li a:hover{
+    color: aqua;
+}
+li{
+    list-style: none;
+}
+.slide ul li a:hover{
+    color: aqua;
+}
+.Offcanvas-Title{
+    background: rgb(134, 124, 160);
+}
+

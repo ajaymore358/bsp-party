@@ -1,0 +1,119 @@
+.body-container{
+    justify-content: center;
+    background-color: rgb(89, 89, 144);
+   
+}
+.body-container h2{
+    font-weight: 500;
+    margin-left: 40px;
+    color: white;
+    font-size: 42px;
+}
+
+#main-slider-container{
+    width: 90%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    margin: 50px;
+    margin-top: 0px;
+   
+   
+    
+}
+#slider{
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow-x:scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    /* margin: 20px; */
+    justify-content: center;
+    overflow: none;
+}
+#slider::-webkit-scrollbar{
+    display: none;
+}
+.slider-icon.left {
+    background: white;
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0.5;
+    box-shadow: 2px 2px 2px 2px rgba(0 0 0 /12%);
+    cursor: pointer;
+    
+}
+.slider-icon.left:hover{
+    color: aqua;
+}
+.slider-icon.right:hover{
+    color: aqua;
+}
+.slider-icon.right{
+    background: white;
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0.5;
+    box-shadow: 2px 2px 2px 2px rgba(0 0 0 /12%);
+    cursor: pointer;
+
+}
+.slider-icon.left{
+    left: 0;
+}
+.slider-icon.right{
+    right: 0;
+}
+.slider-card{
+    width: 240px;
+    height: 380px;
+    background:white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 5px ;
+    margin-right: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0 0 0 /12%);
+    overflow:hidden;
+    background-size: cover;
+    cursor: pointer;
+}
+.slider-card-image{
+    width: 100%;
+    height: 250px;
+    background: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url("");
+    box-shadow: 1px black;
+}
+.slider-card-image img{
+    width: 100%;
+    height: 250px;
+}
+.slider-card-title, .slider-card-discription{
+    margin: 5px 0px 5px 10px;
+    
+}
+.slider-card-title{
+    font-weight: 500;
+    margin-top: 10px;
+}
+.slider-card-discription{
+    font-size: 13px;
+    opacity: 0.5;
+    line-height: normal;
+    
+}
+.view{
+    justify-content: center;
+    background: gray;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+}
+a button:hover{
+    color: aqua;
+}
